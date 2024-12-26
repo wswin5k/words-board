@@ -1,6 +1,7 @@
 # syntax=docker.io/docker/dockerfile:1
 
 FROM node:23-alpine AS base
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # Install dependencies only when needed
 FROM base AS deps
