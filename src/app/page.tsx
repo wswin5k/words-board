@@ -1,5 +1,4 @@
 import * as React from "react";
-import styles from "./page.module.css";
 import wordsData from "./wordsData";
 
 function WordEntry({ word, key }) {
