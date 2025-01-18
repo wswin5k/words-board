@@ -1,7 +1,6 @@
 "use client";
 import * as React from "react";
 import wordsData from "./wordsData";
-import Typography from "@mui/material/Typography";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
