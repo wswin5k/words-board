@@ -10,8 +10,8 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-    ...compat.config({
-    extends: ['next'],
+  ...compat.config({
+    extends: ["next"],
     rules: {
       "react-hooks/rules-of-hooks": "off",
     },
